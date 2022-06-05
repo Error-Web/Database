@@ -1,1 +1,8 @@
-CREATE TABLE error( username VARCHAR , password VARCHAR , Name VARCHAR , number INT , age INT )
+CREATE TABLE Persons
+(
+PersonID int,
+LastName varchar(255),
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+);
